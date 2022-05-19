@@ -1,0 +1,73 @@
+[
+  {
+    "inboundTag": [],
+    "outboundTag": "block",
+    "domain": [
+      "domain:adservice.google.com"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:hostloc.com",
+      "domain:ipip.net"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [
+      "domain:sharepoint.cn",
+      "domain:microsoft.com",
+      "domain:sohu.com",
+      "domain:fonts.googleapis.com",
+      "domian:vwer.net",
+      "domain:pc521.net"
+    ],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "10.0.0.0/8",
+      "172.0.0.0/8",
+      "172.17.0.0/12",
+      "192.168.0.0/16"
+    ],
+    "enabled": true
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:cn"
+    ],
+    "enabled": true
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true
+  }
+]
