@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业详情信息</title>
+    <style type="text/css">
+        .page {
+            width: 98%;
+        }
+        .page-header {
+            width: 100%;
+            line-height: 30px; /*设置文字内容垂直居中，与height的高度相同*/
+            text-align: center; /*设置文字内容居中在中间*/
+            margin: 30px;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .second-header {
+            font-size: 45px;
+        }
+
+
+        .ent-data {
+            font-size: 35px;
+            margin-top: 25px;
+            padding: 5px 18px;
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+
+        .ent-box {
+            position: relative;
+            width: 90%;
+            left: 6%;
+        }
+
+        .ch-box{
+            position: relative;
+            width: 90%;
+            left: 6%;
+        }
+
+
+
+        #select-year {
+            font-size: 50px;
+        }
+
+        .option{
+            width: 140px;
+            height: 40px;
+        }
+
+        .table-box {
+            margin-top: 50px;
+        }
+
+        .ch-table {
+            margin-top: 100px;
+            width: 100%;
+            background-color: #fff;
+            border-collapse: collapse;
+
+        }
+
+
+        .first {
+            width: 36%;
+        }
+
+        .second {
+            width: 30%;
+        }
+
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+        }
+
+        td {
+            text-align: center;
+            font-size: 35px;
+            border: 1px solid #a09e9e;
+            padding: 10px 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+
+        <div class="page-header">
+            IPPC溯源详情
+        </div>
+        <HR>
+
+        <div class="ent-box">
+            <div class="second-header">
+                <p>企业基本信息</p>
+            </div>
+            <div class="ent-data">
+                <div class="ent-column">
+                    <p>
+                        <span>社会信用代码：</span><span>IS845631154</span>
+                    </p>
+
+                </div>
+                <div class="ent-column">
+                    <p>
+                        <span>企业名称：</span><span>中国山货花卉进出口公司1</span>
+                    </p>
+
+                </div>
+                <div class="ent-column">
+                    <p>
+                        <span>IPPC标识登记号：</span><span>AC8462311584</span>
+                    </p>
+
+                </div>
+                <div class="ent-column">
+                    <p>
+                        <span>企业地址：</span><span>北京市海淀区四季青镇自在香山</span>
+                    </p>
+
+                </div>
+                <div class="ent-column">
+                    <p>
+                        <span>联系人：</span><span>老胡</span>
+                    </p>
+
+                </div>
+                <div class="ent-column">
+                    <p>
+                        <span>联系电话：</span><span>13555555555</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ch-box">
+            <div class="second-header">
+                <p>木质包装除害结果信息</p>
+            </div>
+
+            <div class="option">
+                <select name="select-year" id="select-year">
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                </select>
+            </div>
+
+            <div class="table-box">
+                <table class='ch-table'>
+                    <tr>
+                        <td class="header-no first">申报单号</td>
+                        <td class="header-date second">处理日期</td>
+                        <td class="header-code-num third">防伪码数量</td>
+                    </tr>
+                    <tr>
+                        <td class="first">OG3473345</td>
+                        <td class="second">2022/5/26</td>
+                        <td class="third">85</td>
+                    </tr>
+                    <tr>
+                        <td class="first">OG3473345</td>
+                        <td class="second">2022/5/26</td>
+                        <td class="third">85</td>
+                    </tr>
+                    <tr>
+                        <td class="first">OG3473345</td>
+                        <td class="second">2022/5/26</td>
+                        <td class="third">85</td>
+                    </tr>
+                    <tr>
+                        <td class="first">OG3473345</td>
+                        <td class="second">2022/5/26</td>
+                        <td class="third">85</td>
+                    </tr>
+                    <tr>
+                        <td class="first">OG3473345</td>
+                        <td class="second">2022/5/26</td>
+                        <td class="third">85</td>
+                    </tr>
+                    <tr>
+                        <td class="first">OG3473345</td>
+                        <td class="second">2022/5/26</td>
+                        <td class="third">85</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
