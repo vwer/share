@@ -11,16 +11,13 @@
     "inboundTag": [],
     "outboundTag": "proxy",
     "domain": [
-      "domain:hostloc.com",
-      "domain:ipip.net"
+      "domain:hostloc.com"
     ],
     "enabled": true
   },
   {
-    "port": "",
     "inboundTag": [],
     "outboundTag": "direct",
-    "ip": [],
     "domain": [
       "domain:sharepoint.cn",
       "domain:microsoft.com",
@@ -29,7 +26,6 @@
       "domian:vwer.net",
       "domain:pc521.net"
     ],
-    "protocol": [],
     "enabled": true
   },
   {
