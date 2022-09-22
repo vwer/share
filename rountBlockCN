@@ -3,7 +3,7 @@
     "inboundTag": [],
     "outboundTag": "block",
     "domain": [
-      "domain:adservice.google.com"
+      "domain:sublimetext.com"
     ],
     "enabled": true
   },
@@ -11,19 +11,25 @@
     "inboundTag": [],
     "outboundTag": "proxy",
     "domain": [
-      "domain:hostloc.com"
+      "domain:google.com",
+      "domain:google.cn",
+      "domain:googleapis.com",
+      "domain:gstatic.com",
+      "domain:gvt2.com",
+      "domain:staticfile.org",
+      "domain:microsoft.com",
+      "domain:microsoft.cn",
+      "domain:apple.com",
+      "domain:oracle.com"
     ],
     "enabled": true
   },
   {
-    "port": "",
     "inboundTag": [],
     "outboundTag": "direct",
-    "ip": [],
-    "domain": [
-      "domain:sharepoint.cn"
+    "ip": [
+      "140.143.203.200"
     ],
-    "protocol": [],
     "enabled": true
   },
   {
@@ -38,35 +44,19 @@
     "enabled": true
   },
   {
-    "outboundTag": "block",
-    "domain": [
-      "geosite:category-ads-all"
-    ],
-    "enabled": true
-  },
-  {
-    "port": "",
     "inboundTag": [],
-    "outboundTag": "direct",
+    "outboundTag": "block",
     "ip": [
       "geoip:cn"
     ],
     "domain": [
       "geosite:cn"
     ],
-    "protocol": [],
-    "enabled": true
-  },
-  {
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:private",
-      "geoip:cn"
-    ],
     "enabled": true
   },
   {
     "port": "0-65535",
+    "inboundTag": [],
     "outboundTag": "proxy",
     "enabled": true
   }
