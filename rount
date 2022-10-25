@@ -11,19 +11,18 @@
     "inboundTag": [],
     "outboundTag": "proxy",
     "domain": [
-      "domain:hostloc.com"
+      "domain:hostloc.com",
+      "domain:sublimetext.com",
+      "domain:ipip.net"
     ],
     "enabled": true
   },
   {
-    "port": "",
     "inboundTag": [],
     "outboundTag": "direct",
-    "ip": [],
     "domain": [
       "domain:sharepoint.cn"
     ],
-    "protocol": [],
     "enabled": true
   },
   {
@@ -45,7 +44,6 @@
     "enabled": true
   },
   {
-    "port": "",
     "inboundTag": [],
     "outboundTag": "direct",
     "ip": [
@@ -54,7 +52,6 @@
     "domain": [
       "geosite:cn"
     ],
-    "protocol": [],
     "enabled": true
   },
   {
