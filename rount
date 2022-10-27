@@ -8,21 +8,17 @@
     "enabled": true
   },
   {
+    "port": "",
     "inboundTag": [],
     "outboundTag": "proxy",
+    "ip": [],
     "domain": [
       "domain:hostloc.com",
+      "domain:googleapis.com",
       "domain:sublimetext.com",
       "domain:ipip.net"
     ],
-    "enabled": true
-  },
-  {
-    "inboundTag": [],
-    "outboundTag": "direct",
-    "domain": [
-      "domain:sharepoint.cn"
-    ],
+    "protocol": [],
     "enabled": true
   },
   {
